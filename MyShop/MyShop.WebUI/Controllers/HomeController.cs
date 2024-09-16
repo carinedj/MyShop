@@ -38,7 +38,6 @@ namespace MyShop.WebUI.Controllers
             model.Products = products;
             model.ProductCategories = categories;
 
-
             return View(model);
         }
 
